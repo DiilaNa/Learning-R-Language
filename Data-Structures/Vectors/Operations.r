@@ -4,6 +4,12 @@ vec2 <- c(5,6,7,8)
 # Vector Element-wise Addition
 print(vec1 + vec2)
 
+# Element-wise Subtraction
+print(vec2 - vec1)
+
+# Element-wise Division
+print(vec2 / vec1)
+
 # Element-wise Multiplication
 print(vec1 * vec2)
 
