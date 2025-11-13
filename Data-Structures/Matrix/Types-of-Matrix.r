@@ -12,3 +12,26 @@ print(zero_matrix)
 
 # Matrix of Ones
 zero_matrix <- matrix(1, nrow=2, ncol=3)
+
+mat <- matrix(c(2,4,3,1,5,7,6,8,9), nrow=3)
+
+
+# Transpose
+print("-----------Transpose-----------")
+print(t(mat))
+
+# Diagonal
+print("-----------Diagonal-----------")
+print(diag(mat))
+
+# Determinant
+print("-----------Determine-----------")
+print(det(mat))
+
+# Inverse
+print("-----------Inverse-----------")
+print(solve(mat))
+
+# Dimensions
+print("-----------Dimensions-----------")
+print(dim(mat))

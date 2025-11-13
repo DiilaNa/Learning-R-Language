@@ -21,3 +21,16 @@ print(D_removed_col)
 # Reshape matrix
 reshaped_D <- matrix(D, nrow=4, ncol=3)
 print(reshaped_D)
+
+#---------------------Binding Rows and Cloumns------------------------
+print("-------------------------------")
+mat1 <- matrix(1:4, nrow=2)
+mat2 <- matrix(5:8, nrow=2)
+
+# Column binding
+print(cbind(mat1,mat2))
+# Row Binding
+print(rbind(mat1,mat2))
+# Diagonal Binding
+print(Matrix::bdiag(mat1,mat2))
+
